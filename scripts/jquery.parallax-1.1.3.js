@@ -12,7 +12,7 @@ http://www.gnu.org/licenses/gpl.html
 */
 
 (function( $ ){
-	
+
 	var $window = $(window);
 	var windowHeight = $window.height();
 
@@ -56,14 +56,18 @@ http://www.gnu.org/licenses/gpl.html
 				var height = getHeight($element);
 
 				// Check if totally above or totally below viewport
-				if (top + height < pos || top > pos + windowHeight) {
+				
+				
+				if (top + height < pos || top > pos + windowHeight + 1000) {
 					return;
 				}
+				
+				move = Math.round((firstTop - pos) * speedFactor);
 
 				if (isBackground){
-					$this.css('backgroundPosition', xpos + " " + Math.round((firstTop - pos) * speedFactor) + "px");
+					$this.css('backgroundPosition', xpos + " " + move + "px");
 				} else {
-					$this.css('top', Math.round((firstTop - pos) * speedFactor) + "px");
+					$this.css('top', move + "px");
 				}
 
 			});
@@ -73,3 +77,13 @@ http://www.gnu.org/licenses/gpl.html
 		update();
 	};
 })(jQuery);
+
+/*
+console.log("Top: " + top);
+console.log("FirstTop: " + firstTop);
+console.log("Height: " + height);
+console.log("Odzhora: " + (firstTop - pos));
+console.log("Odskrolovano: " + pos);
+console.log("Puvodni-novy: " + (firstTop - top));
+*/
+//console.log("Do cíle:" + (height + (firstTop - pos)));

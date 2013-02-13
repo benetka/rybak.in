@@ -51,13 +51,18 @@ a:hover {
 	text-decoration: none;	
 }
 
-
-img{
+figure, img{
 	border: 0;
+	margin: 0;
+	padding: 0;	
 }
 
-section, article, header, address, footer, nav, aside, hgroup { 
+section, article, header, address, footer, nav, aside, hgroup, figure, figcaption { 
 	display: block;
+}
+
+.hidden {
+	display: none;
 }
 
 /******************************
@@ -67,6 +72,7 @@ section, article, header, address, footer, nav, aside, hgroup {
 section {
 	width:100%;
 	height:100%;
+	overflow: hidden;
 	position: relative;
 	background-attachment: fixed;	
 }
@@ -174,7 +180,7 @@ address ul li:hover {
 	width: 100%;
 	height: 100%;
 	
-	background: #e5e3cb url("../images/slide1/bg1.jpg") 50% 0 no-repeat fixed;
+	background: #e5e3cb url("../images/slide1/jan-rybak-bg1.jpg") 50% 0 no-repeat fixed;
 	
 	-webkit-background-size: 1920px 1440px;	
 	
@@ -216,7 +222,7 @@ address ul li:hover {
 
 #aboutMe article {
 	position: absolute;
-	bottom: 25%;
+	top: 18%;
 	left: 8%;
 	width: 60%;
 }
@@ -231,8 +237,9 @@ address ul li:hover {
 
 img#skills {
 	position: absolute;
-	left: 100px;
-	bottom: -100px;
+	left: 50px;
+	bottom: 0px;
+	cursor: pointer;
 	z-index: 0;
 }
 

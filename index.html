@@ -3,11 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<title>Jenda Rybák / rybak.in</title>
-	<meta name="description" content="Personal website of Jan Rybak, a design and technology enthusiast.">
+	<meta name="description" content="Personal website of Jan Rybák, a design and technology enthusiast.">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	
+	<!-- Meta -->
+	<meta property="og:title" content="Jenda Rybák / rybak.in" />
+	<meta property="og:description" content="Personal website of Jan Rybák, a design and technology enthusiast." />
+	<meta property="og:url" content="http://www.rybak.in" />
+	<meta property="og:locale" content="en_EN" />
 	
 	<!-- Styles-->
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<link rel="stylesheet" href="css/phone.css" media="handheld, only screen and (max-device-width: 320px)">
+	<link rel="stylesheet" href="css/pads.css" media="handheld, only screen and (min-device-width: 320px)">
 
 	<!-- Fonts-->
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
@@ -65,7 +74,7 @@
 		</article> <!-- /Article -->
 
 		<figure>
-			<img id="skills" src="images/slide2/jan-rybak-skills.png" width="1057" height="365" alt="My Skills">		
+			<img id="skills" src="images/slide2/jan-rybak-skills.svg" data-png-fallback="images/slide2/jan-rybak-skills.png" width="1057" height="365" alt="My Skills &amp; interests">		
 			<figcaption class = "hidden">
 				Professional skills and interests of Jan Rybak / Big Data, Data Visualization, Data Analysis, Data Procesing, Design, HTML 5 + CSS3, Bike Design,  Python, Java, R, PHP, UX, D3.js, Adobe Creative Suite, Photography, NLP, IE, Linked Data, Git,...
 			</figcaption>
@@ -83,7 +92,7 @@
 		 <!-- Canvas: GoogleMap-->
 		<div id="map_canvas" style="width: 100%; height: 100%"></div>
 
-		<article class="textbox"> <!-- Article -->
+		<article> <!-- Article -->
 			<h2>Say hi!</h2>
 			<p>Right now I'm living in “an ancient city with a modern soul” - Trondheim, Norway.</p>
 			<address>

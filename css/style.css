@@ -85,8 +85,7 @@ section {
 	bottom: 0px;
 	left: 50%;
 	opacity: 0.9;
-	background-color: #333333;
-	background-image: url("../images/arrow.png");
+	background: #333333 url("../images/arrow.png") center center no-repeat;
 	z-index: 1000;		
 }
 
@@ -193,23 +192,6 @@ address ul li:hover {
 	-o-background-size: cover;
 	background-size: cover;
 	z-index: 0;	
-}
-
-@media only screen and (max-device-width: 1024px){
-}
-
-@media screen and (max-device-width: 1024px) and (orientation: landscape) {
-	#introBg {
-		-webkit-background-size: auto 1024px;					
-		background: #e5e3cb url("../images/bg.jpg")  0 no-repeat fixed;			
-	}
-}
-
-@media screen and (max-device-width: 1024px) and (orientation: portrait) {
-	#introBg {
-		-webkit-background-size: auto 1400px;					
-		background: #e5e3cb url("../images/bg.jpg")  0 no-repeat fixed;			
-	}
 }
 
 /******************************

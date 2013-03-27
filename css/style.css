@@ -57,7 +57,16 @@ figure, img{
 	padding: 0;	
 }
 
-section, article, header, address, footer, nav, aside, hgroup, figure, figcaption { 
+section, 
+article, 
+header, 
+address, 
+footer, 
+nav, 
+aside, 
+hgroup, 
+figure, 
+figcaption { 
 	display: block;
 }
 
@@ -85,7 +94,9 @@ section {
 	bottom: 0px;
 	left: 50%;
 	opacity: 0.9;
-	background: #333333 url("../images/arrow.png") center center no-repeat;
+	background:	#333333 
+				url("../images/arrow.png") 
+				center center no-repeat;
 	z-index: 1000;		
 }
 
@@ -129,7 +140,9 @@ address ul li {
 	float: left;
 	padding:  0 40px 0 10px;	
 	list-style: none;
-	background: transparent url("../images/slash.png") no-repeat right;
+	background:	transparent
+				url("../images/slash.png") 
+				no-repeat right;
 }
 
 nav ul li:first-child {
@@ -147,7 +160,9 @@ address ul a {
 
 nav ul li:hover,
 address ul li:hover {
-	background: transparent url("../images/backslash.png") no-repeat right;
+	background:	transparent 
+				url("../images/backslash.png")
+				no-repeat right;
 }
 
 /******************************
@@ -179,14 +194,16 @@ address ul li:hover {
 	width: 100%;
 	height: 100%;
 	
-	background: #e5e3cb url("../images/slide1/jan-rybak-bg1.jpg") 50% 0 no-repeat fixed;
+	background:	#e5e3cb 
+				url("../images/slide1/jan-rybak-bg1.jpg") 
+				50% 0 no-repeat fixed;
 	
 	-webkit-background-size: 1920px 1440px;	
+	-webkit-background-size: 100%; 
+	-moz-background-size: 100%; 
+	-o-background-size: 100%; 
+	background-size: 100%;
 	
-    -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -199,7 +216,9 @@ address ul li:hover {
 *******************************/
 #aboutMe {
 	background-color: #8197a4;
-	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);	
+	box-shadow:	inset 
+				0px 10px 10px 
+				rgba(0,0,0,0.3);	
 }
 
 #aboutMe article {
@@ -219,8 +238,10 @@ address ul li:hover {
 
 img#skills {
 	position: absolute;
-	left: 50px;
-	bottom: 0px;
+	right: -60%;
+	width: 80%;
+	height: auto;
+	bottom: 20%;
 	cursor: pointer;
 	z-index: 0;
 }

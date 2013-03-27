@@ -2,10 +2,6 @@
 	#introBg {
 		-webkit-background-size: auto 1024px;					
 	}
-
-	img#skills {
-		display: none;
-	}
 }
 
 @media screen and (max-device-width: 1024px) and (orientation: portrait) {
@@ -49,6 +45,7 @@
 }
 
 @media screen and (max-device-width: 2048px) and (orientation: landscape) {
+/*
 	img#skills {
 		position: absolute;
 		bottom: -150px !important;
@@ -56,6 +53,6 @@
 
 	img#skills {
 		display: none;
-	}	
+	}	*/
 }
 

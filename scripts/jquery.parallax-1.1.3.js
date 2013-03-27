@@ -77,13 +77,3 @@ http://www.gnu.org/licenses/gpl.html
 		update();
 	};
 })(jQuery);
-
-/*
-console.log("Top: " + top);
-console.log("FirstTop: " + firstTop);
-console.log("Height: " + height);
-console.log("Odzhora: " + (firstTop - pos));
-console.log("Odskrolovano: " + pos);
-console.log("Puvodni-novy: " + (firstTop - top));
-*/
-//console.log("Do cíle:" + (height + (firstTop - pos)));

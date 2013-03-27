@@ -1,0 +1,23 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:Person rdf:ID="me">
+<foaf:name>Jan Rybák</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Jan</foaf:givenname>
+<foaf:family_name>Rybák</foaf:family_name>
+<foaf:nick>Jenda</foaf:nick>
+<foaf:mbox_sha1sum>1201dbc0df6461ca6061b46cc6ff31f6b1114915</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://www.rybak.in"/>
+<foaf:weblog rdf:resource="http://jendarybak.tumblr.com"/>
+<foaf:depiction rdf:resource="http://www.rybak.in/jan-rybak.jpg"/>
+<foaf:phone rdf:resource="tel:00420731517563"/>
+<foaf:workplaceHomepage rdf:resource="http://www.speculab.com"/>
+<foaf:workInfoHomepage rdf:resource="http://www.linkedin.com/in/jendarybak"/>
+<foaf:schoolHomepage rdf:resource="http://www.zcu.cz"/>
+<foaf:schoolHomepage rdf:resource="http://www.ntnu.no/"/>
+<foaf:schoolHomepage rdf:resource="http://www.hials.no/"/>
+</foaf:Person>
+</rdf:RDF>
